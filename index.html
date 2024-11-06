@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khmera's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Hello, I'm Khmera!</h1>
+        <p>Welcome to my creative space. Here you can explore my work and learn more about me!</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-item">
+            <h3>ESP32 Solar Energy Project</h3>
+            <p>Description of the ESP32 project, focusing on estimating low sunlight.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Coffee Shop Application</h3>
+            <p>A C# application for a coffee shop with invoice printing and SQL database operations.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>ECOMBOS Website</h3>
+            <p>Details about the e-commerce website using WAMP Server or WordPress.</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>My Blog</h2>
+        <div class="blog-post">
+            <h3>Learning HTML & CSS</h3>
+            <p>My journey learning HTML and CSS basics.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Design Tips</h3>
+            <p>Sharing tips on my design process and favorite tools.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
